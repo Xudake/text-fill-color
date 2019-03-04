@@ -63,3 +63,10 @@
     -webkit-text-fill-color: transparent;
 }
 ```
+---
+### tips: 猫咪占位符
+
+[猫咪: http://placekitten.com/500/500](http://placekitten.com/500/500)
+
+设置不同的数值~ 先显示不同大小和样子的猫咪图片
+
