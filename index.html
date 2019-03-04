@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文字填充图片背景</title>
+</head>
+
+<style>
+    .text1 {
+        margin: 0 auto;
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        /* 背景颜色渐变 */
+        background: linear-gradient(125deg,red,#6a38ec);
+
+        /* 背景区域设成文字 */
+        -webkit-background-clip: text;
+        /* color: transparent; */
+
+        /* 文字填充设置成透明 */
+        -webkit-text-fill-color: transparent;
+    }
+
+    .text2 {
+        margin: 0 auto;
+        font-size: 60px;
+        text-align: center;
+        font-weight: bold;
+        
+        /* 文字填充成透明 */
+        -webkit-text-fill-color:transparent;
+
+        /* 文字描边成红色 */
+       -webkit-text-stroke:1px red; 
+    }
+
+    .text3 {
+        margin: 0 auto;
+        font-size: 60px;
+        line-height: 1;
+        text-align: center;
+        font-weight: bold;
+
+        /* 文字背景设置成一张图片 */
+        background: url(http://placekitten.com/500/500) repeat center center;
+        background-size: contain;
+
+        /* 背景区域设成文字 */
+        -webkit-background-clip: text;
+
+        /* 文字填充：透明 */
+        -webkit-text-fill-color: transparent;
+    }
+
+    .record {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+    }
+</style>
+<body>
+    <div class="text1">文字渐变效果文字渐变效果文字渐变效果文字渐变效果文字渐变效果</div>
+    <div class="text2">文字渐变效果文字渐变效果文字渐变效果文字渐变效果文字渐变效果</div>
+    <div class="text3">文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片文字遮罩图片</div>
+    <p class="record">by permit</p>
+</body>
+</html>
