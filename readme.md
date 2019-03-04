@@ -1,5 +1,6 @@
 # 文字渐变效果和镂空效果
 
+[预览效果](https://htmlpreview.github.io/?https://github.com/Xudake/text-fill-color/blob/master/index.html)
 ## 主要使用的属性
 + background: linear-gradient(125deg,#fff,#000)
 + text-fill-text
